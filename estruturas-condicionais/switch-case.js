@@ -1,7 +1,7 @@
 // Função para exibir informações sobre cada classe de personagem
-Function exibirInfoClasse(classe) {
+function exibirInfoClasse(classe) {
     switch (classe) {
-        case "Guerreiro";
+        case "Guerreiro":
         console.log("Classe: Guerreiro");
         console.log("Descrição: Os guerreiros são combatentes corpo a corpo resistentes, especializados no uso de armas e armaduras pesadas.");
         console.log("Habilidades: Ataque poderoso, resistência a danos.");
